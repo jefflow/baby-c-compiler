@@ -1,6 +1,6 @@
 # Baby C Compiler
 ## Introduction
-This compiler was built for a Compiler Construction class at CSU, Sacramento.
+This compiler was built for a Compiler Construction class at CSU, Sacramento. 
 
 The compiler is made for a very simplified version of the C programming language called Baby C. 
 
@@ -37,6 +37,7 @@ Type:
 ```
 make
 ```
+Note that there will be **warnings** but should be no **errors**.
 
 ### Step 6: Run the Baby C Compiler
 In order to run the compiler, you need to feed it a test file with the extension: `.bc`. 
@@ -54,7 +55,7 @@ It expects a `.bc` file, which contains the Baby C code. Once it processes the f
 
 ## Structure of the compiler
 ### Front End
-Scanner Generator: Flex
+Scanner Generator: [Flex](https://www.gnu.org/software/flex/)
 
 Symbol Table: Hashtable
 
@@ -62,7 +63,7 @@ High-level Intermediate Representation: Abstract Syntax Trees
 
 Low-level Intermediate Representation: ILOC 
 
-Parser Generator: Bison
+Parser Generator: [Bison](https://www.gnu.org/software/bison/)
 
 ### Optimizer
 Not implemented.
