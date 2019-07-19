@@ -1,0 +1,12 @@
+main() {
+    int a75;
+    int b52;
+    int c16;
+    int x86;
+    int yyz;
+    int z87;
+
+    if (a75 + x86 <= c16 && z87 - b52 * (x86 + yyz) == 5 || x86 * 12 > a75 / 2) {
+        yyz = b52 / (c16 + z87 + 89) + a75 - x86 / 25;
+    }
+}

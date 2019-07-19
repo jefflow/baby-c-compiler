@@ -1,0 +1,22 @@
+Processing declaration of a
+Processing declaration of b
+Processing declaration of c
+Creating left-hand IDENT node for a
+Creating NUM node for 1
+Creating Assignment node
+Creating left-hand IDENT node for b
+Creating NUM node for 1
+Creating IDENT node for a
+Creating Addition node
+Creating Assignment node
+Creating left-hand IDENT node for c
+Creating IDENT node for a
+Creating IDENT node for b
+Creating Multiplication node
+Creating Expression node in parentheses
+Creating IDENT node for c
+Creating Division node
+Creating Assignment node
+Adding a Statement to a Statement list 
+Adding a Statement to a Statement list 
+Adding a Statement to a Statement list 

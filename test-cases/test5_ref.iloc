@@ -1,0 +1,40 @@
+	loadAI rarp, 0 -> r1
+	loadAI rarp, 12 -> r2
+	add r1, r2 -> r3
+	loadAI rarp, 8 -> r4
+	cmp_LE r3, r4 -> r5
+	loadAI rarp, 20 -> r6
+	loadAI rarp, 4 -> r7
+	loadAI rarp, 12 -> r8
+	loadAI rarp, 16 -> r9
+	add r8, r9 -> r10
+	mult r7, r10 -> r11
+	sub r6, r11 -> r12
+	loadi 5 -> r13
+	cmp_EQ r12, r13 -> r14
+	and r5, r14 -> r15
+	loadAI rarp, 12 -> r16
+	loadi 12 -> r17
+	mult r16, r17 -> r18
+	loadAI rarp, 0 -> r19
+	loadi 2 -> r20
+	div r19, r20 -> r21
+	cmp_GT r18, r21 -> r22
+	or r15, r22 -> r23
+	cbr r23 -> L1_T, L1_M
+L1_T:
+	loadAI rarp, 4 -> r24
+	loadAI rarp, 8 -> r25
+	loadAI rarp, 20 -> r26
+	add r25, r26 -> r27
+	loadi 89 -> r28
+	add r27, r28 -> r29
+	div r24, r29 -> r30
+	loadAI rarp, 0 -> r31
+	add r30, r31 -> r32
+	loadAI rarp, 12 -> r33
+	loadi 25 -> r34
+	div r33, r34 -> r35
+	sub r32, r35 -> r36
+	storeAI r36 -> rarp, 16
+L1_M:

@@ -1,0 +1,22 @@
+	loadAI rarp, 0 -> r1
+	loadi 0 -> r2
+	cmp_NE r1, r2 -> r3
+	loadAI rarp, 4 -> r4
+	loadi 25 -> r5
+	cmp_GE r4, r5 -> r6
+	and r3, r6 -> r7
+	cbr r7 -> L1_T, L1_M
+L1_T:
+	loadAI rarp, 0 -> r8
+	loadAI rarp, 4 -> r9
+	cmp_EQ r8, r9 -> r10
+	cbr r10 -> L2_T, L2_E
+L2_T:
+	loadi 0 -> r11
+	storeAI r11 -> rarp, 4
+	jumpi -> L2_M
+L2_E:
+	loadi 0 -> r12
+	storeAI r12 -> rarp, 0
+L2_M:
+L1_M:

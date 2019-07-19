@@ -1,0 +1,12 @@
+	loadi 1 -> r1
+	storeAI r1 -> rarp, 0
+	loadi 1 -> r2
+	loadAI rarp, 0 -> r3
+	add r2, r3 -> r4
+	storeAI r4 -> rarp, 4
+	loadAI rarp, 0 -> r5
+	loadAI rarp, 4 -> r6
+	mult r5, r6 -> r7
+	loadAI rarp, 8 -> r8
+	div r7, r8 -> r9
+	storeAI r9 -> rarp, 8

@@ -1,0 +1,13 @@
+main() {
+    int g;
+    int h;
+
+    if (g != 0 && h >= 25) {
+        if (g == h) {
+            h = 0;
+        } else {
+            g = 0;
+        }
+    }
+
+}

@@ -1,0 +1,6 @@
+Processing declaration of a
+Processing declaration of b
+Processing declaration of c
+Processing declaration of d
+Processing declaration of e
+ERROR on line 7: Multiple declarations of 'a'.

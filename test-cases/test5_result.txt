@@ -1,0 +1,49 @@
+Processing declaration of a75
+Processing declaration of b52
+Processing declaration of c16
+Processing declaration of x86
+Processing declaration of yyz
+Processing declaration of z87
+Creating IDENT node for a75
+Creating IDENT node for x86
+Creating Addition node
+Creating IDENT node for c16
+Creating Compare node
+Creating IDENT node for z87
+Creating IDENT node for b52
+Creating IDENT node for x86
+Creating IDENT node for yyz
+Creating Addition node
+Creating Expression node in parentheses
+Creating Multiplication node
+Creating Subtraction node
+Creating NUM node for 5
+Creating Compare node
+Creating AND node
+Creating IDENT node for x86
+Creating NUM node for 12
+Creating Multiplication node
+Creating IDENT node for a75
+Creating NUM node for 2
+Creating Division node
+Creating Compare node
+Creating OR node
+Creating left-hand IDENT node for yyz
+Creating IDENT node for b52
+Creating IDENT node for c16
+Creating IDENT node for z87
+Creating Addition node
+Creating NUM node for 89
+Creating Addition node
+Creating Expression node in parentheses
+Creating Division node
+Creating IDENT node for a75
+Creating Addition node
+Creating IDENT node for x86
+Creating NUM node for 25
+Creating Division node
+Creating Subtraction node
+Creating Assignment node
+Adding a Statement to a Statement list 
+Creating if Statement node
+Adding a Statement to a Statement list 

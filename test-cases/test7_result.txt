@@ -1,0 +1,2 @@
+Processing declaration of x
+ERROR on line 4: Ident not declared.

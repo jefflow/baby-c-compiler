@@ -1,0 +1,10 @@
+	loadAI rarp, 0 -> r1
+	loadi 3 -> r2
+	cmp_EQ r1, r2 -> r3
+	cbr r3 -> L1_T, L1_M
+L1_T:
+	loadAI rarp, 8 -> r4
+	loadi 2 -> r5
+	sub r4, r5 -> r6
+	storeAI r6 -> rarp, 4
+L1_M:

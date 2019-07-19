@@ -1,0 +1,44 @@
+	loadAI rarp, 4 -> r1
+	loadi 8 -> r2
+	cmp_LT r1, r2 -> r3
+	cbr r3 -> L1_T, L1_E
+L1_T:
+	loadAI rarp, 8 -> r4
+	loadi 9 -> r5
+	mult r4, r5 -> r6
+	storeAI r6 -> rarp, 0
+	loadAI rarp, 12 -> r7
+	loadi 8 -> r8
+	mult r7, r8 -> r9
+	storeAI r9 -> rarp, 4
+	jumpi -> L1_M
+L1_E:
+	loadi 17 -> r10
+	storeAI r10 -> rarp, 0
+L2_C:
+	loadAI rarp, 8 -> r11
+	loadAI rarp, 12 -> r12
+	cmp_GT r11, r12 -> r13
+	cbr r13 -> L2_B, L2_O
+L2_B:
+	loadAI rarp, 0 -> r14
+	loadAI rarp, 8 -> r15
+	cmp_EQ r14, r15 -> r16
+	cbr r16 -> L3_T, L3_M
+L3_T:
+	loadAI rarp, 0 -> r17
+	loadAI rarp, 8 -> r18
+	add r17, r18 -> r19
+	storeAI r19 -> rarp, 4
+	loadAI rarp, 4 -> r20
+	loadi 6 -> r21
+	add r20, r21 -> r22
+	storeAI r22 -> rarp, 4
+L3_M:
+	jumpi -> L2_C
+L2_O:
+	loadAI rarp, 8 -> r23
+	loadAI rarp, 12 -> r24
+	add r23, r24 -> r25
+	storeAI r25 -> rarp, 4
+L1_M:

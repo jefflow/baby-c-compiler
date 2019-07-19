@@ -1,0 +1,15 @@
+Processing declaration of i
+Processing declaration of j
+Processing declaration of k
+Creating IDENT node for i
+Creating NUM node for 3
+Creating Compare node
+Creating left-hand IDENT node for j
+Creating IDENT node for k
+Creating NUM node for 2
+Creating Subtraction node
+Creating Expression node in parentheses
+Creating Assignment node
+Adding a Statement to a Statement list 
+Creating if Statement node
+Adding a Statement to a Statement list 

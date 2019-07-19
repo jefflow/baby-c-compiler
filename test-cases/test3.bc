@@ -1,0 +1,9 @@
+main() {
+    int i;
+    int j;
+    int k;
+
+    if (i == 3) {
+        j = (k - 2);
+    }
+}

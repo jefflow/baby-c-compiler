@@ -1,0 +1,23 @@
+Processing declaration of x
+Processing declaration of y
+Creating IDENT node for x
+Creating NUM node for 0
+Creating Compare node
+Creating IDENT node for y
+Creating NUM node for 100
+Creating Compare node
+Creating OR node
+Creating left-hand IDENT node for x
+Creating IDENT node for x
+Creating NUM node for 1
+Creating Addition node
+Creating Assignment node
+Creating left-hand IDENT node for y
+Creating NUM node for 3
+Creating IDENT node for x
+Creating Multiplication node
+Creating Assignment node
+Adding a Statement to a Statement list 
+Adding a Statement to a Statement list 
+Creating while loop node
+Adding a Statement to a Statement list 

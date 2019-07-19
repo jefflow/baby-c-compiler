@@ -1,0 +1,20 @@
+main() {
+    int x;
+    int y;
+    int a;
+    int b;
+
+    if (y < 8) {
+        x = a * 9;
+        y = b * 8;
+    } else {
+        x = 17;
+        while (a > b) {
+            if (x == a) {
+                y = x + a;
+                y = y + 6;
+            }
+        }
+        y = a + b;
+    }
+}

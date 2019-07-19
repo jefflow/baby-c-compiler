@@ -1,0 +1,24 @@
+Processing declaration of g
+Processing declaration of h
+Creating IDENT node for g
+Creating NUM node for 0
+Creating Compare node
+Creating IDENT node for h
+Creating NUM node for 25
+Creating Compare node
+Creating AND node
+Creating IDENT node for g
+Creating IDENT node for h
+Creating Compare node
+Creating left-hand IDENT node for h
+Creating NUM node for 0
+Creating Assignment node
+Adding a Statement to a Statement list 
+Creating left-hand IDENT node for g
+Creating NUM node for 0
+Creating Assignment node
+Adding a Statement to a Statement list 
+Creating if-else Statement node
+Adding a Statement to a Statement list 
+Creating if Statement node
+Adding a Statement to a Statement list 
