@@ -4,9 +4,9 @@ This compiler was built for a Compiler Construction class at CSU, Sacramento.
 
 The compiler is made for a very simplified version of the C programming language called Baby C. 
 
-Baby C contains the very basic features of a programming language: declarations, expressions, assignments, if-else statements, and while loops. A Baby C program consists of one function called `main`
+Baby C contains the very basic features of a programming language: declarations, expressions, assignments, if-else statements, and while loops. A Baby C program consists of one function called `main`.
 
-**Note that this is a toy compiler, meaning it does not generate actual assembly and it doesn't target to a specific architecture. It is missing the optimizer and backend phases of a typical compiler.**
+**Note that this is a toy compiler, meaning it does not generate actual assembly and it doesn't target to a specific architecture. It is missing the optimizer and the backend, which are found in production compilers.**
 
 ## How to build and run
 Note that these instructions are written for macOS.
